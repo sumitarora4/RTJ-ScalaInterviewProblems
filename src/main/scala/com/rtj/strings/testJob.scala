@@ -17,6 +17,17 @@ object testJob {
     println("Continuing Main")
     // waits for all tasks to complete before exiting
     //Await.result(tasks, Duration.Inf)
+
+    import scala.util.hashing.MurmurHash3.stringHash
+
+    val str = "Sumit123Kumar"
+    val str2 = "Sumit123Kumar2"
+    println(stringHash(str).toString)
+
+
+    println(stringHash(str) == stringHash(str2))
+
+
   }
 
   // ...

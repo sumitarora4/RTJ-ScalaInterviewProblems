@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RTJ-ScalaInterviewProblems.iml" filepath="$PROJECT_DIR$/.idea/modules/RTJ-ScalaInterviewProblems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RTJ-ScalaInterviewProblems-build.iml" filepath="$PROJECT_DIR$/.idea/modules/RTJ-ScalaInterviewProblems-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RTJ-ScalaInterviewProblems.RTJ-ScalaInterviewProblems-build.iml" filepath="$PROJECT_DIR$/.idea/modules/RTJ-ScalaInterviewProblems.RTJ-ScalaInterviewProblems-build.iml" />
     </modules>
   </component>
 </project>

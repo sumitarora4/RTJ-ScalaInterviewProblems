@@ -7,7 +7,8 @@ object PrimeNumber extends  App{
   def isPrime(n: Int): Boolean = {
     @tailrec
     def isPrimeTailRec(currentDivisor: Int) :Boolean = {
-      if (currentDivisor > Math.sqrt(Math.abs(n))) true //  square root of any positive number gives all the possible divisors of number
+      if (currentDivisor > Math.sqrt(Math.abs(n))) true //  square root of any positive number gives
+      // all the possible divisors of number
       else n % currentDivisor != 0 && isPrimeTailRec(currentDivisor + 1)
     }
 
